@@ -1,6 +1,6 @@
 Porokhin Yuriy
 **Contact**
-Discord: Yuri (@MartiP54)
+Discord: Yuri(@MartiP54)
 **Skills**
 HTML,CSS,JS,Git
 ***My code example***
