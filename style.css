@@ -1,0 +1,10 @@
+.horiz-menu-list {
+    list-style:none;
+    margin: 0;
+    padding-left:0;
+    display: inline;
+}
+
+.main-title {
+    color: brown;
+}
