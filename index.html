@@ -9,19 +9,20 @@
     <header>
         <nav>
             <ul class="menu">
-         <li><a href="#aboutme">About me</a></li>
-         <li><a href="#education">Enducation</a></li>
-         <li><a href="#skills">Skills</a></li>
-         <li><a href="#code">Code</a></li>
-         <li><a href="#english">English</a></li>
-         <li><a href="#contact">Contact</a></li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#education">Enducation</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#english">English</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
          </nav>
     </header>
     
     <main>
-     <section id="flexContainer">
-      <aside>
+     <div id="flexContainer">
+
+      <div id="side">
         <img src="./img/avatar.png" alt="avatar of Porokhin Yuriy" width="500" height="500">
             <br>
             <h1>Porokhin Yuriy</h1>
@@ -31,9 +32,9 @@
                    <h2>Education</h2>
                        Siberian State University of Telecommunications and Informatics
                     <br>
-                        2006-2011
-                     <br>
-                        Telecommunications Engineer
+                       2006-2011
+                    <br>
+                       Telecommunications Engineer
             </section>
 
             <section id="contact">
@@ -44,15 +45,14 @@
                   <br>
                        Address: Novosibirsk,Russia
             </section>
+      </div>
         
-      </aside>
-        
-      <section id="content">
+      <div id="content">
 
         <section id="aboutme">
             <h2>About me</h2>
-            I like changing careers. I am a Telecommunication Engineer by education.I worked in telecom for 4 years, ended up as a team leader.
-            For the last 5 years, I have been developing my own online store. Interested in world history,travel,swimming,running,tea.
+                I like changing careers. I am a Telecommunication Engineer by education.I worked in telecom for 4 years, ended up as a team leader.
+                For the last 5 years, I have been developing my own online store. Interested in world history,travel,swimming,running,tea.
         </section>
 
         <section id="skills">
@@ -78,9 +78,9 @@
         </section>
 
         <section id="code">
-        <h2>My code example</h2>
-        <pre>
-            <code>
+            <h2>My code example</h2>
+            <pre>
+                <code>
              function XO(str) {
                 str = str.toLowerCase();
                let kolX = 0,
@@ -97,37 +97,37 @@
                }
                return (kolX == kolO);
              }
-            </code>
+                </code>
             </pre>       
         </section>
 
         <section id="english">
             <h2>English Level</h2>
-              A2 
+                 A2 
         </section>
 
-    </section>
-  </section>
+    </div>
+  </div>
 </main>
     
     
     <footer>
 
-        <section id="rs">
+        <div id="rs">
             <a href="https://rs.school/js/">
                 <img src="./img/rs_school_js.svg" alt="logo rs school" width="150" height="130">
             </a>
-        </section>
+        </div>
 
         <section id="year">
             <h3> 2022</h3>
         </section> 
 
-        <section id="git">
+        <div id="git">
             <a href="https://github.com/MartiP54">
                 <img src="./img/git_logo.png" alt="logo github" width="150" height="150">
             </a>
-        </section>
+        </div>
     
     </footer>
     

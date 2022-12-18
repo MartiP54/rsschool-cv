@@ -51,10 +51,10 @@ nav {
    
   }
   
-aside {
+#side {
 	min-height: 800px;
 	background: #ABABAB;
-	flex: 1 1 15%;
+	flex: 1 1 10%;
   }
 
 h1 {
