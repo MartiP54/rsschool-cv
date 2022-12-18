@@ -20,80 +20,115 @@
     </header>
     
     <main>
-    <section id="flexContainer">
-      
-        <aside>
-            <img src="./img/avatar.png" alt="avatar of Porokhin Yuriy" width="500" height="500"
-            0">
+     <section id="flexContainer">
+      <aside>
+        <img src="./img/avatar.png" alt="avatar of Porokhin Yuriy" width="500" height="500">
             <br>
             <h1>Porokhin Yuriy</h1>
             <h2>Front-End developer</h2>
-            <div id="education">
+
+            <section id="education">
                    <h2>Education</h2>
                        Siberian State University of Telecommunications and Informatics
-                             <br>
-                             2006-2011
-                             <br>
+                    <br>
+                        2006-2011
+                     <br>
                         Telecommunications Engineer
-            </div>
-                  <div id="contact">
+            </section>
+
+            <section id="contact">
                   <h2> Contact </h2>
-                  Discord: Yuri(@MartiP54) 
+                       Discord: Yuri(@MartiP54) 
                   <br>
-                  Email: marti.iden@gmail.com
+                       Email: marti.iden@gmail.com
                   <br>
-                  Address: Novosibirsk,Russia
-                </div>
+                       Address: Novosibirsk,Russia
+            </section>
         
-          </aside>
+      </aside>
         
       <section id="content">
-        <div id="aboutme">
+
+        <section id="aboutme">
             <h2>About me</h2>
-        </div>
-        <div id="skills">
+            I like changing careers. I am a Telecommunication Engineer by education.I worked in telecom for 4 years, ended up as a team leader.
+            For the last 5 years, I have been developing my own online store. Interested in world history,travel,swimming,running,tea.
+        </section>
+
+        <section id="skills">
             <h2>Skills</h2>
-            HTML,CSS,JS,Git
-        </div>
-        <div id="code">
+            <h3>Hard skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li> 
+                <li>JS</li> 
+                <li>Git</li>
+                <li>Configuring and Troubleshooting Cisco/Juniper/Huawei/Eltex/D-link devices</li>
+                <li>Telecom protocol:MPLS,BGP,TCP/IP,STP,ERPS</li>
+                <li>Project management</li>
+            </ul>
+            <h3>Soft skills</h3>
+            <ul>
+                <li>Punctuality</li>
+                <li>Critical thinking</li>
+                <li>Problem solving skills</li>
+                <li>Decision-making skills</li>
+                <li>Self-reflection</li>
+            </ul>
+        </section>
+
+        <section id="code">
         <h2>My code example</h2>
-             ```javascript
-              let isSquare = function(n){
-             if((Math.sqrt(n) % 1) == 0)
-             return true;
-             else
-             return false;
-              }
-              ``
-        </div>
-            <div id="english">
+        <pre>
+            <code>
+             function XO(str) {
+                str = str.toLowerCase();
+               let kolX = 0,
+                   kolO = 0,
+                   oprdX=str.indexOf('x'),
+                   oprdO=str.indexOf('o');
+               while (oprdX !== -1) {
+                 kolX++;
+                 oprdX = str.indexOf('x', oprdX + 1);
+               }
+               while (oprdO !== -1) {
+                 kolO++;
+                 oprdO = str.indexOf('o', oprdO + 1);
+               }
+               return (kolX == kolO);
+             }
+            </code>
+            </pre>       
+        </section>
+
+        <section id="english">
             <h2>English Level</h2>
               A2 
-             </div>
+        </section>
+
     </section>
-    </section>
+  </section>
 </main>
     
     
     <footer>
-      <section id="rs">
-         <a href="https://rs.school/js/">
-           <img src="./img/rs_school_js.svg" alt="logo rs school" width="150" height="130">
-      </a>
-      </section>
 
-    <section id="year">
-        <h3> 2022</h3>
-    </section> 
+        <section id="rs">
+            <a href="https://rs.school/js/">
+                <img src="./img/rs_school_js.svg" alt="logo rs school" width="150" height="130">
+            </a>
+        </section>
 
-    <section id="git">
-      <a href="https://github.com/MartiP54">
-          <img src="./img/git_logo.png" alt="logo github" width="150" height="150">
-      </a>
-    </section>
+        <section id="year">
+            <h3> 2022</h3>
+        </section> 
+
+        <section id="git">
+            <a href="https://github.com/MartiP54">
+                <img src="./img/git_logo.png" alt="logo github" width="150" height="150">
+            </a>
+        </section>
     
     </footer>
     
- 
-
 </html>
