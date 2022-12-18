@@ -5,69 +5,95 @@
         <link rel="stylesheet" href="./style.css">
         <title>CV</title>
     </head>
+
+    <header>
+        <nav>
+            <ul class="menu">
+         <li><a href="#aboutme">About me</a></li>
+         <li><a href="#education">Enducation</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#code">Code</a></li>
+         <li><a href="#english">English</a></li>
+         <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
     
-    <body> 
-        <header>
-            <nav class="horiz-menu">
-                <ul class="horiz-menu-list">
-                    <li class="horiz-menu-item">About me</li>
-                    <li class="horiz-menu-item">Enducation</li>
-                    <li class="horiz-menu-item">Skills</li>
-                    <li class="horiz-menu-item">Code</li>
-                    <li class="horiz-menu-item">English</li>
-                    <li class="horiz-menu-item">Contact</li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-
-            <div class="right">
-                <section class="page-title">
-                   <h1 class="main-title">
-                       Porokhin 
-                       <br> 
-                       Yuriy
-                    </h1>
-                </section>
+    <main>
+    <section id="flexContainer">
+      
+        <aside>
+            <img src="./img/avatar.png" alt="avatar of Porokhin Yuriy" width="500" height="500"
+            0">
+            <br>
+            <h1>Porokhin Yuriy</h1>
+            <h2>Front-End developer</h2>
+            <div id="education">
+                   <h2>Education</h2>
+                       Siberian State University of Telecommunications and Informatics
+                             <br>
+                             2006-2011
+                             <br>
+                        Telecommunications Engineer
             </div>
-
-            <div class="left">
-                <img src="./img/avatar.png" alt="avatar of Porokhin Yuriy">
-            </div>
-            
-            **Contact**
-            Discord: Yuri(@MartiP54)
-            **Skills**
+                  <div id="contact">
+                  <h2> Contact </h2>
+                  Discord: Yuri(@MartiP54) 
+                  <br>
+                  Email: marti.iden@gmail.com
+                  <br>
+                  Address: Novosibirsk,Russia
+                </div>
+        
+          </aside>
+        
+      <section id="content">
+        <div id="aboutme">
+            <h2>About me</h2>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
             HTML,CSS,JS,Git
-            ***My code example***
-            ```javascript
-            let isSquare = function(n){
-              if((Math.sqrt(n) % 1) == 0)
-		       return true;
-	          else
-		       return false;
-            }
-            ```
-            **Education**
-            2006-2011
-            Siberian State University of Telecommunications and Informatics
-            Telecommunications Engineer
-            
-            **English Level**
-            A2 
+        </div>
+        <div id="code">
+        <h2>My code example</h2>
+             ```javascript
+              let isSquare = function(n){
+             if((Math.sqrt(n) % 1) == 0)
+             return true;
+             else
+             return false;
+              }
+              ``
+        </div>
+            <div id="english">
+            <h2>English Level</h2>
+              A2 
+             </div>
+    </section>
+    </section>
+</main>
+    
+    
+    <footer>
+      <section id="rs">
+         <a href="https://rs.school/js/">
+           <img src="./img/rs_school_js.svg" alt="logo rs school" width="150" height="130">
+      </a>
+      </section>
 
-        </main>
-        <footer>
-            <a href="https://rs.school/js/">
-                <img src="./img/rs_school_js.svg" alt="logo rs school">
-            </a>
-            <a href="https://github.com/MartiP54">
-                <img src="./img/git_logo.png" alt="logo github">
-            </a>
-            2022
-        </footer>
+    <section id="year">
+        <h3> 2022</h3>
+    </section> 
 
-    </body>
-
+    <section id="git">
+      <a href="https://github.com/MartiP54">
+          <img src="./img/git_logo.png" alt="logo github" width="150" height="150">
+      </a>
+    </section>
+    
+    </footer>
+    
+ 
 
 </html>

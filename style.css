@@ -1,10 +1,92 @@
-.horiz-menu-list {
-    list-style:none;
-    margin: 0;
-    padding-left:0;
-    display: inline;
+@font-face {
+	font-family: 'SourceSerifPro';
+	src: url(/rsschool-cv/assets/fonts/SourceSerifPro-Regular.ttf);
 }
 
-.main-title {
-    color: brown;
-}
+html {
+	scroll-behavior: smooth; 
+  }
+body {
+	font-family: SourceSerifPro, Sans-Serif;
+	font-size: 20px;
+	background: #EDEDED;
+  }
+
+  header {
+	background: #ac7878;
+	min-height: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+  }
+  .menu {
+	display: flex;
+	list-style: none;
+  }
+  .menu li {
+	margin: 20px 100px;
+  }
+  nav {
+	background: #ac7878;
+	min-height: 40px;
+	margin: 0;
+	padding: 0px;
+  }
+
+  #flexContainer {
+	display: flex;
+  }
+  
+ #content {
+	background: #C9C9C9;
+	flex: 3 1 70%;
+	min-width: 150px;
+	padding-left: 20px;
+   
+  }
+  
+  aside {
+	min-height: 800px;
+	background: #ABABAB;
+	flex: 1 1 15%;
+
+   
+  }
+
+  h1 {
+	font-size: 60px;
+  }
+
+  #education {
+	font-size: 30px;
+	line-height: 50px;
+	margin-top: 100px;
+	margin-bottom: 160px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+  }
+  
+  #contact {
+	font-size: 30px;
+	line-height: 50px;
+	padding-left: 10px;
+  }
+  footer {
+	background: #707070;
+	min-height: 50px;
+	display: flex;
+  }
+
+  #rs {
+	flex: 1 1 15%;
+  }
+  #year {
+	flex: 1 1 15%;
+	font-size: 40px;
+  }
+
+ 
+
+  
