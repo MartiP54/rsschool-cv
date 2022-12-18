@@ -1,8 +1,11 @@
-Porokhin Yuriy
-**Contact**
+# **Porokhin Yuriy**
+***
+### **Contact**
 Discord: Yuri(@MartiP54)
-**Skills**
+***
+### **Skills**
 HTML,CSS,JS,Git
+
 ***My code example***
 ```javascript
 let isSquare = function(n){
@@ -13,9 +16,11 @@ let isSquare = function(n){
 		return false;
 }
 ```
-**Education**
+### **Education**
 Telecommunications Engineer
-2006-2011
-**English Level**
-A2 
 
+Siberian State University of Telecommunications and Informatics 
+
+2006-2011
+### **English Level**
+A2 
