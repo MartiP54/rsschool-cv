@@ -11,8 +11,11 @@ body {
 	font-size: 20px;
 	background: #EDEDED;
   }
-
-  header {
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+header {
 	background: #ac7878;
 	min-height: 40px;
 	display: flex;
@@ -21,25 +24,26 @@ body {
 	align-items: center;
 
   }
-  .menu {
+
+.menu {
 	display: flex;
 	list-style: none;
   }
-  .menu li {
+.menu li {
 	margin: 20px 100px;
   }
-  nav {
+nav {
 	background: #ac7878;
 	min-height: 40px;
 	margin: 0;
 	padding: 0px;
   }
 
-  #flexContainer {
+#flexContainer {
 	display: flex;
   }
   
- #content {
+#content {
 	background: #C9C9C9;
 	flex: 3 1 70%;
 	min-width: 150px;
@@ -47,19 +51,17 @@ body {
    
   }
   
-  aside {
+aside {
 	min-height: 800px;
 	background: #ABABAB;
 	flex: 1 1 15%;
-
-   
   }
 
-  h1 {
+h1 {
 	font-size: 60px;
   }
 
-  #education {
+#education {
 	font-size: 30px;
 	line-height: 50px;
 	margin-top: 100px;
@@ -68,21 +70,21 @@ body {
 	padding-left: 10px;
   }
   
-  #contact {
+#contact {
 	font-size: 30px;
 	line-height: 50px;
 	padding-left: 10px;
   }
-  footer {
+footer {
 	background: #707070;
 	min-height: 50px;
 	display: flex;
   }
 
-  #rs {
+#rs {
 	flex: 1 1 15%;
   }
-  #year {
+#year {
 	flex: 1 1 15%;
 	font-size: 40px;
   }
